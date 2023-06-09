@@ -11,4 +11,4 @@ Account abstraction
 If the user loses access to their Ethereum account, they initiate a recovery request.
 The recovery request is sent to the social recovery contract, providing necessary detail. Guardians (your friends) are notified of the request and can approve or deny the request. If the request is approved, the user can recover their account.
 
-But i
+But in 
