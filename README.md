@@ -10,4 +10,6 @@ Wallet social recovery is a mechanism that allows users to regain access to thei
 
 Currently, users have to add a fixed wallet address (like 0xycc...) of their guardians. Later, during the recovery phase, the guardians (owners of the guardian addresses) have to approve the recovery by signing the recovery request via the originally specified address. However, a problem arises when guardians lose access to the originally specified Ethereum address due to various reasons. For instance, they may decide to migrate their assets from one wallet to another and unintentionally forget to update all references to the old Ethereum address or informing their friends. This can lead to difficulties in the recovery process as the guardians may no longer have control over the specified address, hindering the successful recovery of the user's wallet.
 
+## Solution
+
 Our idea is to use guardians' ENS addresses instead of fixed addresses. By utilizing ENS addresses, users only need to rely on the stability of the ENS system, rather than worrying about the potential consequences of changing or losing access to their old Ethereum accounts. This approach provides flexibility and simplifies the recovery process, as guardians can update their associated ENS addresses if needed, without causing disruptions or hindering the recovery of users' wallets.
